@@ -1,0 +1,196 @@
+public class MyClass {
+    public static void main(String args[]) {
+        //create an array full of strings for the department code
+            int[] myStrings = {103,
+115,
+116,
+117,
+131,
+135,
+144,
+145,
+149,
+152,
+158,
+159,
+160,
+169,
+170,
+172,
+175,
+177,
+178,
+180,
+181,
+182,
+185,
+187,
+194,
+195,
+197,
+198,
+199,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+209,
+210,
+211,
+212,
+213,
+214,
+216,
+217,
+218,
+219,
+220,
+221,
+222,
+223,
+224,
+226,
+232,
+233,
+234,
+235,
+236,
+237,
+239,
+240,
+241,
+242,
+243,
+244,
+245,
+246,
+247,
+248,
+249,
+250,
+252,
+253,
+254,
+256,
+257,
+258,
+259,
+260,
+261,
+265,
+266,
+268,
+269,
+270,
+271,
+272,
+281,
+282,
+284,
+285,
+286,
+287,
+295,
+300,
+301,
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309,
+310,
+311,
+312,
+313,
+314,
+315,
+316,
+317,
+319,
+322,
+323,
+325,
+326,
+327,
+328,
+330,
+333,
+334,
+335,
+337,
+342,
+343,
+344,
+347,
+348,
+350,
+352,
+361,
+362,
+370,
+399,
+410,
+428,
+431,
+432,
+434,
+435,
+437,
+500,
+532,
+533,
+534,
+601,
+602,
+603,
+604,
+999,
+1201,
+1203,
+1302,
+2231,
+2232,
+3445,
+99999};
+
+String Analyst = new String();
+String Sr_Analyst = new String();
+String Principal = new String();
+
+
+//Assign names to department codes
+
+    for(int i =0; i<myStrings.length; i++){
+        if(myStrings[i] == 206 || myStrings[i] == 207 || myStrings[i] == 211 || myStrings[i] == 213 || myStrings[i] == 214 || myStrings[i] == 224 || myStrings[i] == 195 || myStrings[i] == 149 || myStrings[i] == 217 || myStrings[i] == 200 || myStrings[i] == 205 || myStrings[i] == 235 || myStrings[i] == 210 || myStrings[i] == 221 || myStrings[i] == 222 || myStrings[i] == 223 || myStrings[i] == 234 || myStrings[i] == 236 || myStrings[i] == 266)
+    {
+        Analyst = "Derek Jackson";
+        Sr_Analyst = "Derek Jackson";
+        Principal = "Jeff Warner";
+    }
+    
+        else if(myStrings[i] == 316 || myStrings[i] == 326 || myStrings[i] == 342 || myStrings[i] == 362 || myStrings[i] == 314 || myStrings[i] == 301 || myStrings[i] == 303 || myStrings[i] == 327 || myStrings[i] == 383 || myStrings[i] == 304 || myStrings[i] == 309 || myStrings[i] == 315 || myStrings[i] == 310 || myStrings[i] == 311 || myStrings[i] == 343 || myStrings[i] == 314 || myStrings[i] == 328 || myStrings[i] == 348 || myStrings[i] == 305 || myStrings[i] == 350 || myStrings[i] == 361 || myStrings[i] == 312 || myStrings[i] == 370)
+        {
+             Analyst = "Barbara Heironimus ";
+        }
+        else{
+            Analyst = " ";
+        Sr_Analyst = " ";
+        Principal = " ";
+        }
+    
+        System.out.println("If Department Code = " + myStrings[i] + " and Role = 'Analyst' Name = " + Analyst);
+        System.out.println("If Department Code = " + myStrings[i] + " and Role = 'Sr Analyst' Name = " + Sr_Analyst);
+        System.out.println("If Department Code = " + myStrings[i] + " and Role = 'Principal' Name = " + Principal);
+    }
+        
+        //create a for loop that repeats an array item 3 times and prints out the code
+    }
+}
